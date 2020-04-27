@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> Моя личная страницa </title>
+<Meta  charset= "utf-8" >                         
+<Meta name="Author" content="Chala Yulia"> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#9ACD32">
+ <header> <div class='imgblock'>
+<img  height="300px" width="100%" src="img/фон1.jpg">
+<span >Привет! Я студентка НТУ "ХПИ" гр. МИТ-87б и эта страница обо мне.</span>
+</div><header>
+<nav class="top-menu">
+  <ul class="menu-main">
+    <li class="left-item"><a href="#Моя_успеваемость" >Моя успеваемость</a></li>
+    <li class="left-item"><a href="#Мои_интересы">Мои интересы</a></li>
+    <li class="right-item"><a href="#Обо_мне">Обо мне</a></li>
+    <li class="right-item"><a href="#О_моем_городе">О моём городе</a></li>
+</ul>
+  <a class="navbar-logo" href="#Картинка"><img width = "70px" height = "70px" src="img/картинка.jpg"></a>
+</nav>
+  <style id="inverter" media="none">
+  html { background-color: #eee; filter: invert(100%) }
+  * { background-color: inherit;
+  font-family: Arial sans-serif; }
+  img:not([src*=".svg"]), [style*="url("] { filter: invert(100%) }
+</style>
+<div class="wrap">
+  <label  class="button">
+    <input type="checkbox" id="themer">
+    <font size="5px" color="#6B8E23"> Вкл тёмный стиль оформления страницы</font> <span aria-hidden="true"></span>
+  </label>
+<script type="text/javascript">
+  var checkbox = document.getElementById('themer');
+var invertor = document.getElementById('inverter');
+
+checkbox.addEventListener('change', function () {
+  // Triggers repaint in most browsers:
+  invertor.setAttribute('media', this.checked ? 'screen' : 'none');
+  // Forces repaint in Chrome:
+  invertor.textContent = invertor.textContent.trim();
+});
+</script>
+  <p align="center"> <caption><a name="Моя_успеваемость"><b><font color="#6B8E23" size=+2>Список предметов, изучаемых мной на 5-ом семестре 3 курса</font></b></a></caption></p>
+   <table width = "70%" height = "50%" align ="center" border="1" bordercolor = "green"background="img/1.jpg">
+    <tr align="center">
+    <th><font size=+1>Название предмета</font></th>
+    <th><font size=+1>ФИО преподавателя</font></th>
+    <th><font size=+1>Оценка</font></th>
+   </tr>
+   <tr align="center"><td><font size=+1>Моделирование сложных систем</font></td><td><font size=+1>Мартыненко В.Г.</font></td><td><font size=+1>А 98</font></td></tr>
+   <tr align="center"><td><font size=+1>Численные методы</font></td><td><font size=+1>Устиненко А.В.</font></td><td><font size=+1>А 96</font></td></tr>
+   <tr align="center"><td><font size=+1>Технология программирования в САПР</font></td><td><font size=+1>Сериков В.И.</font></td><td><font size=+1>А 95</font></td></tr>
+   <tr align="center"><td><font size=+1>Прикладная теория упругости</font></td><td><font size=+1>Ткачук Н.А.</font></td><td><font size=+1>А 96</font></td></tr>
+   <tr align="center"><td><font size=+1>Компьютерное моделирование сложных систем</font></td><td><font size=+1>Зарубина А.А.</font></td><td><font size=+1>А 98</font></td></tr>
+   <tr align="center"><td><font size=+1>Теория алгоритмизации и программирования</font></td><td><font size=+1>Устиненко А.В.</font></td><td><font size=+1>А 96</font></td></tr>
+   <tr align="center"><td><font size=+1>Физическая культура</font></td><td><font size=+1>Алпатова А.А.</font></td><td><font size=+1>D 68</font></td></tr>
+</table>
+<p><hr size=3 width ="100%" align="center" color="green" noshade></hr></p>
+ <center><a name="Мои_интересы"><b><font color="#6B8E23" size=+2>Мои интересы</font></b></a></center>
+  <div><ol> <font  color=green size=+2 >Топ моих любимых фильмов: 
+    <li><a href="https://kinozabor.net/1186-269-posle.html" style="color: #228B22; text-decoration: underline">"После";</a></li>
+    <li><a href="https://kinokrad.co/333260-v-metre-drug-ot-druga.html" style="color: #228B22; text-decoration: underline">"В метре друг от друга";</a></li>
+    <li><a href="https://kinokrad.co/262184-esli-ya-ostanus-2014.html" style="color: #228B22; text-decoration: underline">"Если я останусь";</a></li>
+    <li><a href="https://kinokrad.co/256301-vinovaty-zvezdy-2014.html" style="color: #228B22; text-decoration: underline">"Виноваты звезды";</a></li>
+    <li><a href="https://megogo.net/ru/view/2993921-polnochnoe-solnce.html" style="color: #228B22; text-decoration: underline">"Полночное солнце".</a></li>
+</font>
+  </ol></div>
+   <center><p> <font size=+1 align="left">Одна из моих любимых цитат - это цитата из книги Р.Липпинкотт "В метре друг от друга":</font></p>
+  <p> <cite><font color= "green"size=+1 align="left"><i>"Впервые в жизни я ощущаю вес каждого сантиметра, каждого миллиметра из тех полутора метров, что лежат между нами. Но я стараюсь не думать о том, что это пространство останется между нами навсегда"</i></font></p></cite></center>
+  <p align="center"> Мой любимый проект: <a href="banan.html" style="color: #228B22; text-decoration: underline">3D модель банана</a></p>
+  <p><hr size=3 width ="100%" align="center" color="green" noshade></hr></p>
+  <center><a name="Обо_мне"><b><font color="#6B8E23" size=+2>Обо мне</font></b></a></center>
+  <p align="center"><font size=+1 > Меня можно описать 3 словами: <i><font color="green">добрая, романтичная, отзывчивая.</font></i></font></p>
+
+   <center><p><font size=+1 > Эти картинки описывают моё настроение:</font></p>
+<div id="carousel" class="carousel slide" data-ride="carousel">
+    <!-- Индикаторы -->
+  <ol  class="carousel-indicators">
+    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li>
+  </ol>
+   
+<div class="carousel-inner">
+    <div class="carousel-item active">
+      <img height="300px" width="400px"class="img-fluid" src="img/мышь.jpg" alt="1">
+      <div class="carousel-caption">
+        <font color="black" size="+2">Радость</font>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img eight="300px" width="400px" class="img-fluid" src="img/ежик.jpg" alt="2">
+      <div class="carousel-caption">
+       <font color="black" size="+2">Грусть</font> 
+      </div>
+    </div>
+    <div class="carousel-item">
+       <img eight="300px" width="400px" class="img-fluid" src="img/хомяк.jpg" alt="3">
+      <div class="carousel-caption">
+        <font color="black" size="+2"> Так я выгляжу в данный момент</font>
+      </div>
+    </div>
+  </div>
+  </center>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+  <p><hr size=3 width ="100%" align="center" color="green" noshade></hr></p>
+  <center><a name="О_моем_городе"><b><font color="#6B8E23" size=+2>Немного интерестного о небольшом городе Старобельск, в котором я родилась</font></b></a></center>
+   <p align="justify" > <font size=+1 > Старобельск — город районного значения в Луганской области Украины, административный центр Старобельского района, город студентов, курортная зона сосновых лесов, здравниц, санаториев, пионерских лагерей и целебных вод. О городе Старобельске существует множество легенд. Одна из них гласит, что якобы в городе спрятаны в cети подземных ходов награбленные сокровища Нестора Махно, который долгое время находился в городе. </font></p>
+   <p align="justify"> <font size=+1 >Город упоминается в произведении И. Ильфа и Е. Петрова «12 стульев». По этому поводу в «Студенческом» сквере Педагогического института установлен памятник Остапу Бендеру, который был повреждён вандалами и после реставрации вновь радует Старобельчан и гостей города: </font></p>
+   <p align="center"><cite ><font color="green"size=+1 >"В половине двенадцатого с северо-запада, со стороны деревни Чмаровки, в Старгород вошёл молодой человек лет двадцати восьми. За ним бежал беспризорный. Дядя, — весело кричал он, — Дай десять копеек!"</font></cite></p>
+   <p align="justify"><font size=+1 >Город огибает река Айдар. Hазвание Айдар с крымско-татарского языка переводится как «Лунная река». По берегам Айдара проходил один из путей (сакма), по которой татары делали набеги на южные рубежи Российского государства в XV—XVII веках.</font></p>
+<center><a name="Картинка"></a>
+   <div id="carousel2" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img height="400px" width="600px" class="img-fluid" src="img/стб1.jpg">
+    </div>
+    <div class="carousel-item">
+      <img height="400px" width="600px" class="img-fluid" src="img/стб10.jpg">
+    </div>
+    <div class="carousel-item">
+       <img height="400px" width="600px" class="img-fluid" src="img/стб3.jpg">
+    </div>
+    <div class="carousel-item">
+       <img height="400px" width="600px" class="img-fluid" src="img/стб5.jpg">
+    </div>
+    <div class="carousel-item">
+       <img height="400px" width="600px" class="img-fluid" src="img/стб6.jpg">
+    </div>
+    <div class="carousel-item">
+       <img height="400px" width="600px" class="img-fluid" src="img/стб7.jpg">
+    </div>
+    <div class="carousel-item">
+       <img height="400px" width="600px" class="img-fluid" src="img/стб9.jpg">
+    </div>
+  </div>
+  <!-- Элементы управления -->
+  <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Предыдущий</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Следующий</span>
+  </a>
+</div></center>
+<p><hr size=3 width ="100%" align="center" color="green" noshade></hr></p>
+ <p> <div class='imgblock2'>
+<img  height="300px" width="100%" src="img/фон3.jpg">
+<span ><p align ="center"> Мои контакты:</br>
+  Чалая Юлия Сергеевна</br>
+ <a href="https://mail.google.com" style="color: #00FF7F; text-decoration: underline">s1713@tmm-sapr.org</a></p>
+</span>
+</div> </p>
+</body>
+</html>
